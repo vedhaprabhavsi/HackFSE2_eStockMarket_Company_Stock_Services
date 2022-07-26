@@ -1,0 +1,542 @@
+2022-07-25 10:23:41,895 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting EstockmarketCommandApplication using Java 11.0.12 on ctsjava129 with PID 11664 (C:\Users\cogjava201\eStock_Market_Source_Code\HackFSE2_eStock_Market\estockmarket-command\target\classes started by cogjava201 in C:\Users\cogjava201\eStock_Market_Source_Code\HackFSE2_eStock_Market\estockmarket-command)
+2022-07-25 10:23:41,912 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.3, Spring v5.3.9
+2022-07-25 10:23:41,913 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 10:23:41,923 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2022-07-25 10:23:42,017 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-25 10:23:42,018 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-25 10:23:45,347 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-25 10:23:45,508 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 149 ms. Found 3 JPA repository interfaces.
+2022-07-25 10:23:46,123 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=b0665c7b-1ab7-34c4-b5df-2ed7ae279372
+2022-07-25 10:23:47,546 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8482 (http)
+2022-07-25 10:23:47,566 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8482"]
+2022-07-25 10:23:47,567 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-07-25 10:23:47,568 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-07-25 10:23:47,876 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-07-25 10:23:47,877 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 5856 ms
+2022-07-25 10:23:48,394 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-25 10:23:48,633 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-07-25 10:23:49,132 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-25 10:23:49,504 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-07-25 10:23:50,846 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-07-25 10:23:50,941 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-07-25 10:23:52,993 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-25 10:23:53,030 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-25 10:23:55,881 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-25 10:23:57,204 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 3 endpoint(s) beneath base path '/actuator'
+2022-07-25 10:23:57,765 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-07-25 10:23:59,100 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-07-25 10:23:59,240 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-07-25 10:23:59,430 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-07-25 10:23:59,522 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-07-25 10:23:59,542 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-07-25 10:23:59,587 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-07-25 10:23:59,588 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-07-25 10:23:59,590 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-07-25 10:23:59,591 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-07-25 10:23:59,591 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-07-25 10:23:59,592 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-07-25 10:23:59,592 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-07-25 10:24:00,231 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-07-25 10:24:00,234 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-07-25 10:24:00,238 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-07-25 10:24:00,248 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1658724840246 with initial instances count: 0
+2022-07-25 10:24:00,252 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application ESTOCKMARKET-COMMAND with eureka with status UP
+2022-07-25 10:24:00,254 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1658724840254, current=UP, previous=STARTING]
+2022-07-25 10:24:00,258 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ESTOCKMARKET-COMMAND/host.docker.internal:estockmarket-command:8482: registering service...
+2022-07-25 10:24:00,261 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8482"]
+2022-07-25 10:24:00,289 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8482 is already in use
+2022-07-25 10:24:00,309 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-25 10:24:00,319 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2022-07-25 10:24:00,405 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ESTOCKMARKET-COMMAND/host.docker.internal:estockmarket-command:8482 - registration status: 204
+2022-07-25 10:24:00,409 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2022-07-25 10:24:00,412 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Shutting down DiscoveryClient ...
+2022-07-25 10:24:03,428 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Unregistering ...
+2022-07-25 10:24:03,487 INFO com.netflix.discovery.DiscoveryClient [restartedMain] DiscoveryClient_ESTOCKMARKET-COMMAND/host.docker.internal:estockmarket-command:8482 - deregister  status: 200
+2022-07-25 10:24:03,511 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Completed shut down of DiscoveryClient
+2022-07-25 10:24:03,526 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Pausing ProtocolHandler ["http-nio-8482"]
+2022-07-25 10:24:03,528 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2022-07-25 10:24:03,544 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping ProtocolHandler ["http-nio-8482"]
+2022-07-25 10:24:03,551 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Destroying ProtocolHandler ["http-nio-8482"]
+2022-07-25 10:24:03,581 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-25 10:24:03,622 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8482 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8482 or configure this application to listen on another port.
+
+2022-07-25 10:33:08,255 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting EstockmarketCommandApplication using Java 11.0.12 on ctsjava129 with PID 924 (C:\Users\cogjava201\eStock_Market_Source_Code\HackFSE2_eStock_Market\estockmarket-command\target\classes started by cogjava201 in C:\Users\cogjava201\eStock_Market_Source_Code\HackFSE2_eStock_Market\estockmarket-command)
+2022-07-25 10:33:08,266 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.3, Spring v5.3.9
+2022-07-25 10:33:08,266 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 10:33:08,275 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2022-07-25 10:33:08,338 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-25 10:33:08,338 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-25 10:33:11,878 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-25 10:33:12,096 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 190 ms. Found 3 JPA repository interfaces.
+2022-07-25 10:33:12,832 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=b0665c7b-1ab7-34c4-b5df-2ed7ae279372
+2022-07-25 10:33:14,292 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8482 (http)
+2022-07-25 10:33:14,313 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8482"]
+2022-07-25 10:33:14,315 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-07-25 10:33:14,316 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-07-25 10:33:14,647 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-07-25 10:33:14,647 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 6308 ms
+2022-07-25 10:33:15,192 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-25 10:33:15,281 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-07-25 10:33:15,528 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-25 10:33:15,768 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-07-25 10:33:16,364 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-07-25 10:33:16,393 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-07-25 10:33:17,904 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-25 10:33:17,924 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-25 10:33:19,388 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-25 10:33:20,375 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 3 endpoint(s) beneath base path '/actuator'
+2022-07-25 10:33:20,782 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-07-25 10:33:22,071 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-07-25 10:33:22,248 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-07-25 10:33:22,478 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-07-25 10:33:22,562 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-07-25 10:33:22,576 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-07-25 10:33:22,634 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-07-25 10:33:22,635 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-07-25 10:33:22,635 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-07-25 10:33:22,635 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-07-25 10:33:22,636 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-07-25 10:33:22,636 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-07-25 10:33:22,636 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-07-25 10:33:22,712 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(1)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 10:33:22,712 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-07-25 10:33:22,716 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-127.0.0.1] Completed initialization in 3 ms
+2022-07-25 10:33:23,456 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-07-25 10:33:23,476 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-07-25 10:33:23,494 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-07-25 10:33:23,518 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1658725403511 with initial instances count: 0
+2022-07-25 10:33:23,531 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application ESTOCKMARKET-COMMAND with eureka with status UP
+2022-07-25 10:33:23,533 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1658725403533, current=UP, previous=STARTING]
+2022-07-25 10:33:23,538 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ESTOCKMARKET-COMMAND/host.docker.internal:estockmarket-command:8482: registering service...
+2022-07-25 10:33:23,540 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8482"]
+2022-07-25 10:33:23,566 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8482 is already in use
+2022-07-25 10:33:23,594 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-25 10:33:23,611 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2022-07-25 10:33:23,685 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2022-07-25 10:33:23,689 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ESTOCKMARKET-COMMAND/host.docker.internal:estockmarket-command:8482 - registration status: 204
+2022-07-25 10:33:23,692 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Shutting down DiscoveryClient ...
+2022-07-25 10:33:26,824 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Unregistering ...
+2022-07-25 10:33:27,534 INFO com.netflix.discovery.DiscoveryClient [restartedMain] DiscoveryClient_ESTOCKMARKET-COMMAND/host.docker.internal:estockmarket-command:8482 - deregister  status: 200
+2022-07-25 10:33:27,590 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Completed shut down of DiscoveryClient
+2022-07-25 10:33:27,709 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Pausing ProtocolHandler ["http-nio-8482"]
+2022-07-25 10:33:27,713 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2022-07-25 10:33:27,738 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-07-25 10:33:27,814 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping ProtocolHandler ["http-nio-8482"]
+2022-07-25 10:33:27,900 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Destroying ProtocolHandler ["http-nio-8482"]
+2022-07-25 10:33:27,942 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-25 10:33:28,034 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8482 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8482 or configure this application to listen on another port.
+
+2022-07-25 22:55:07,663 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting EstockmarketCommandApplication using Java 11.0.12 on ctsjava129 with PID 13028 (C:\Users\cogjava201\eStock_Market_Source_Code\HackFSE2_eStock_Market\estockmarket-command\target\classes started by cogjava201 in C:\Users\cogjava201\eStock_Market_Source_Code\HackFSE2_eStock_Market\estockmarket-command)
+2022-07-25 22:55:07,670 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.3, Spring v5.3.9
+2022-07-25 22:55:07,670 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 22:55:07,669 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2022-07-25 22:55:07,725 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-25 22:55:07,725 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-25 22:55:09,561 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-25 22:55:09,671 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 98 ms. Found 2 JPA repository interfaces.
+2022-07-25 22:55:10,048 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=101d740b-b1fc-3f9b-b8b3-d1d25a0638a2
+2022-07-25 22:55:10,891 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8482 (http)
+2022-07-25 22:55:10,903 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8482"]
+2022-07-25 22:55:10,904 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-07-25 22:55:10,905 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-07-25 22:55:11,097 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-07-25 22:55:11,098 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3372 ms
+2022-07-25 22:55:11,452 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-25 22:55:11,504 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-07-25 22:55:11,644 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-25 22:55:11,795 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-07-25 22:55:12,271 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-07-25 22:55:12,288 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-07-25 22:55:13,216 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-25 22:55:13,229 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-25 22:55:14,119 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-25 22:55:14,653 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 3 endpoint(s) beneath base path '/actuator'
+2022-07-25 22:55:14,909 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-07-25 22:55:15,485 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-07-25 22:55:15,563 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-07-25 22:55:15,677 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-07-25 22:55:15,724 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-07-25 22:55:15,730 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-07-25 22:55:15,757 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-07-25 22:55:15,757 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-07-25 22:55:15,758 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-07-25 22:55:15,758 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-07-25 22:55:15,758 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-07-25 22:55:15,758 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-07-25 22:55:15,759 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-07-25 22:55:15,970 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(1)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 22:55:15,970 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-07-25 22:55:15,973 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-127.0.0.1] Completed initialization in 2 ms
+2022-07-25 22:55:16,106 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-07-25 22:55:16,109 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-07-25 22:55:16,112 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-07-25 22:55:16,121 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1658769916119 with initial instances count: 0
+2022-07-25 22:55:16,125 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application ESTOCKMARKET-COMMAND with eureka with status UP
+2022-07-25 22:55:16,126 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1658769916126, current=UP, previous=STARTING]
+2022-07-25 22:55:16,128 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8482"]
+2022-07-25 22:55:16,129 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ESTOCKMARKET-COMMAND/host.docker.internal:estockmarket-command:8482: registering service...
+2022-07-25 22:55:16,196 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8482 (http) with context path ''
+2022-07-25 22:55:16,197 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8482
+2022-07-25 22:55:16,284 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ESTOCKMARKET-COMMAND/host.docker.internal:estockmarket-command:8482 - registration status: 204
+2022-07-25 22:55:16,442 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2022-07-25 22:55:16,459 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2022-07-25 22:55:16,471 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2022-07-25 22:55:16,624 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started EstockmarketCommandApplication in 9.669 seconds (JVM running for 10.98)
+2022-07-25 22:55:46,113 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2022-07-25 22:55:46,115 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2022-07-25 22:55:46,116 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2022-07-25 22:55:46,116 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2022-07-25 22:55:46,116 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2022-07-25 22:55:46,116 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2022-07-25 22:55:46,116 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2022-07-25 22:55:46,136 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2022-07-25 23:00:15,769 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-25 23:05:15,794 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-25 23:05:39,056 INFO com.estockmarket.command.application.controller.CompanyController [http-nio-8482-exec-1] Create company details CompanyDto(id=null, companyCode=1009, companyName=MNO, ceo=MnoCeo, companyTurnover=1.0000000909E8, companyWebsite=www.mno.com, stockExchangeName=BSE)
+2022-07-25 23:05:39,317 INFO com.estockmarket.command.domain.service.CompanyService [http-nio-8482-exec-1] Company details saved successfully Company(id=9, companyCode=1009, companyName=MNO, ceo=MnoCeo, companyTurnover=1.0000000909E8, companyWebsite=www.mno.com, stockExchangeName=BSE)
+2022-07-25 23:05:39,322 INFO com.estockmarket.command.infrastructure.eventsourcing.KafkaCompanyEventSourcing [http-nio-8482-exec-1] createCompany topic send successfully {
+  "id" : 9,
+  "companyCode" : "1009",
+  "companyName" : "MNO",
+  "ceo" : "MnoCeo",
+  "companyTurnover" : 1.0000000909E8,
+  "companyWebsite" : "www.mno.com",
+  "stockExchangeName" : "BSE"
+}
+2022-07-25 23:05:39,348 INFO org.apache.kafka.common.config.AbstractConfig [http-nio-8482-exec-1] ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [kafka:29094]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = true
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2022-07-25 23:05:39,424 INFO org.apache.kafka.common.utils.AppInfoParser$AppInfo [http-nio-8482-exec-1] Kafka version: 2.7.1
+2022-07-25 23:05:39,425 INFO org.apache.kafka.common.utils.AppInfoParser$AppInfo [http-nio-8482-exec-1] Kafka commitId: 61dbce85d0d41457
+2022-07-25 23:05:39,425 INFO org.apache.kafka.common.utils.AppInfoParser$AppInfo [http-nio-8482-exec-1] Kafka startTimeMs: 1658770539422
+2022-07-25 23:05:41,472 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:05:41,473 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:05:43,594 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:05:43,594 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:05:45,754 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:05:45,754 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:05:48,024 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:05:48,024 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:05:50,425 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:05:50,425 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:05:53,455 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:05:53,456 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:05:56,597 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:05:56,598 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:05:59,815 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:05:59,815 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:06:02,967 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:06:02,967 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:06:05,992 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:06:05,993 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:06:09,144 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:06:09,145 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:06:12,105 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:06:12,107 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:06:15,062 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:06:15,063 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:06:17,994 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:06:17,994 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:06:20,967 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:06:20,968 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:06:24,120 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:06:24,120 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:06:27,154 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:06:27,154 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:06:30,385 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:06:30,385 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:06:33,539 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:06:33,539 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:06:36,621 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:06:36,622 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:06:39,444 ERROR org.springframework.core.log.LogAccessor [http-nio-8482-exec-1] Exception thrown when sending a message with key='null' and payload='{
+  "id" : 9,
+  "companyCode" : "1009",
+  "companyName" : "MNO",
+  "ceo" : "MnoCeo",
+  "company...' to topic createCompany:
+org.apache.kafka.common.errors.TimeoutException: Topic createCompany not present in metadata after 60000 ms.
+2022-07-25 23:06:39,453 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8482-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.kafka.KafkaException: Send failed; nested exception is org.apache.kafka.common.errors.TimeoutException: Topic createCompany not present in metadata after 60000 ms.] with root cause
+org.apache.kafka.common.errors.TimeoutException: Topic createCompany not present in metadata after 60000 ms.
+2022-07-25 23:06:39,690 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:06:39,691 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:06:42,649 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:06:42,649 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:06:45,680 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:06:45,680 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:06:48,936 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:06:48,936 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:06:51,839 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:06:51,840 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:06:54,864 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:06:54,864 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:06:57,772 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:06:57,773 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:07:00,907 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:07:00,908 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:07:03,805 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:07:03,805 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:07:06,889 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:07:06,890 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:07:09,859 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:07:09,859 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:07:13,024 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:07:13,025 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:07:16,121 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:07:16,121 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:07:19,141 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:07:19,141 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:07:21,495 INFO com.estockmarket.command.application.controller.CompanyController [http-nio-8482-exec-5] Remove company details 1009
+2022-07-25 23:07:21,516 INFO com.estockmarket.command.infrastructure.eventsourcing.KafkaCompanyEventSourcing [http-nio-8482-exec-5] removeCompany topic send successfully {
+  "id" : 9,
+  "companyCode" : "1009",
+  "companyName" : "MNO",
+  "ceo" : "MnoCeo",
+  "companyTurnover" : 1.0000000909E8,
+  "companyWebsite" : "www.mno.com",
+  "stockExchangeName" : "BSE"
+}
+2022-07-25 23:07:22,026 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:07:22,026 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:07:25,118 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:07:25,118 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:07:28,026 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:07:28,026 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:07:30,936 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:07:30,937 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:07:33,912 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:07:33,912 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:07:37,194 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:07:37,194 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:07:40,096 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:07:40,096 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:07:43,322 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:07:43,322 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:07:46,403 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:07:46,405 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:07:49,383 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:07:49,383 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:07:52,475 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:07:52,476 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:07:55,616 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:07:55,616 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:07:58,767 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:07:58,768 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:08:01,672 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:08:01,672 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:08:04,836 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:08:04,836 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:08:07,872 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:08:07,872 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:08:11,136 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:08:11,136 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:08:14,177 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:08:14,178 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:08:17,132 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:08:17,132 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:08:20,218 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:08:20,218 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:08:21,523 ERROR org.springframework.core.log.LogAccessor [http-nio-8482-exec-5] Exception thrown when sending a message with key='null' and payload='{
+  "id" : 9,
+  "companyCode" : "1009",
+  "companyName" : "MNO",
+  "ceo" : "MnoCeo",
+  "company...' to topic removeCompany:
+org.apache.kafka.common.errors.TimeoutException: Topic removeCompany not present in metadata after 60000 ms.
+2022-07-25 23:08:21,529 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8482-exec-5] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.kafka.KafkaException: Send failed; nested exception is org.apache.kafka.common.errors.TimeoutException: Topic removeCompany not present in metadata after 60000 ms.] with root cause
+org.apache.kafka.common.errors.TimeoutException: Topic removeCompany not present in metadata after 60000 ms.
+2022-07-25 23:08:23,484 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:08:23,484 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:08:26,587 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:08:26,588 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:08:29,622 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:08:29,622 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:08:32,901 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:08:32,901 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:08:35,981 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:08:35,982 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:08:38,957 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:08:38,958 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:08:42,065 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:08:42,065 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:08:44,966 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:08:44,966 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:08:48,146 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:08:48,147 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:08:51,359 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:08:51,359 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:08:54,334 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:08:54,334 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:08:57,444 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:08:57,444 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:09:00,544 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:09:00,545 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:09:03,707 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:09:03,707 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:09:06,836 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:09:06,836 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:09:09,789 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:09:09,790 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:09:12,817 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:09:12,817 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:09:15,863 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:09:15,863 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:09:19,136 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:09:19,136 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:09:22,409 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:09:22,410 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:09:25,363 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:09:25,363 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:09:28,392 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:09:28,392 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:09:31,477 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:09:31,477 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:09:34,694 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:09:34,695 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:09:37,794 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:09:37,794 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:09:40,718 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:09:40,718 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:09:43,686 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:09:43,687 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:09:46,640 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:09:46,640 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:09:49,548 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:09:49,548 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:09:52,782 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:09:52,782 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:09:56,069 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:09:56,069 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:09:59,154 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:09:59,154 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:10:02,125 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:10:02,125 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:10:05,283 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:10:05,283 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:10:08,380 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:10:08,381 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:10:11,496 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:10:11,497 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:10:14,538 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:10:14,539 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:10:15,807 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-07-25 23:10:17,771 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:10:17,772 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:10:20,662 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:10:20,662 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:10:23,686 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:10:23,687 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:10:26,907 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:10:26,907 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:10:30,084 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:10:30,085 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:10:33,057 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:10:33,058 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:10:36,259 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:10:36,260 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:10:39,530 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:10:39,530 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:10:42,497 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:10:42,497 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:10:45,464 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:10:45,464 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
+2022-07-25 23:10:48,666 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (kafka/172.18.24.90:29094) could not be established. Broker may not be available.
+2022-07-25 23:10:48,666 WARN org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker kafka:29094 (id: -1 rack: null) disconnected
